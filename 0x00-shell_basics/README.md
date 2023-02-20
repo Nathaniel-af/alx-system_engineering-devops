@@ -352,7 +352,7 @@ You can consider that all HTML files have the extension .html
 * File: 14-copy_html
 
 ### 15. Let’s move    
-_advanced_
+_\#advanced_
 
 Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
