@@ -408,7 +408,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 * File: 101-clean_emacs
 
 ### 17. Tree
-~\#advanced~
+_\#advanced_
 
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
