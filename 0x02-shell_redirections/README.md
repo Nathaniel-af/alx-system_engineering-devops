@@ -485,6 +485,7 @@ Create a script that takes a list of words as input and prints only words that a
 Input format: One line, one word
 Output format: One line, one word
 Words should be sorted
+``` shell
 julien@ubuntu:/tmp/0x02$ cat list
 C#
 C
@@ -517,47 +518,47 @@ C
 C++
 Go
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 13-unique
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 13-unique
 
-14. It must be in that file
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 14. It must be in that file
+
 Display lines containing the pattern “root” from the file /etc/passwd
-
+``` shell
 $ ./14-findthatword
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
 _cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
 $
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 14-findthatword
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 14-findthatword
 
 15. Count that word
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 
+Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+``` shell
 $ ./15-countthatword
 81
 $
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 15-countthatword
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 15-countthatword
 
-16. What's next?
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 16. What's next
+
 Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
-
+``` shell
 $ ./16-whatsnext
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
@@ -570,17 +571,17 @@ _usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
 _dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
 _dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
 $
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 16-whatsnext
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 16-whatsnext
 
-17. I hate bins
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 17. I hate bins
+
 Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
-
+``` shell
 $ ./17-hidethisword
 ##
 # User Database
@@ -593,18 +594,19 @@ $ ./17-hidethisword
 # Open Directory.
 ##
 $
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 17-hidethisword
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 17-hidethisword
 
-18. Letters only please
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+### 18. Letters only please
+
+Display all lines of the file /etc/ssh/sshd\_config starting with a letter.
 
 include capital letters as well
+``` shell
 $ ./18-letteronly
 SyslogFacility AUTHPRIV
 AuthorizedKeysFile  .ssh/authorized_keys
@@ -612,60 +614,61 @@ UsePrivilegeSeparation sandbox # Default for new installations.
 AcceptEnv LANG LC_*
 Subsystem   sftp    /usr/libexec/sftp-server
 $
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 18-letteronly
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 18-letteronly
 
-19. A to Z
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 19. A to Z
+
 Replace all characters A and c from input to Z and e respectively.
-
+``` shell
 julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ
 Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 19-AZ
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 19-AZ
 
-20. Without C, you would live in hiago
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 20. Without C, you would live in hiago
+
 Create a script that removes all letters c and C from input.
-
+``` shell 
 julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago
 hiago
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 20-hiago
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 20-hiago
 
-21. esreveR
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 21. esreveR
+
 Write a script that reverse its input.
-
+``` shell
 julien@ubuntu:/tmp/0x02$ echo "Reverse" | ./21-reverse
 esreveR
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 21-reverse
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 21-reverse
 
-22. DJ Cut Killer
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 22. DJ Cut Killer
+
 Write a script that displays all users and their home directories, sorted by users.
 
 Based on the the /etc/passwd file
+``` shell
 julien@ubuntu:/tmp/0x02$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -754,15 +757,16 @@ uuidd:/run/uuidd
 whoopsie:/nonexistent
 www-data:/var/www
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 22-users_and_homes
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 22-users\_and\_homes
 
-23. Empty casks make the most noise
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+### 23. Empty casks make the most noise
+_\#advanced_
+
 Write a command that finds all empty files and directories in the current directory and all sub-directories.
 
 Only the names of the files and directories should be displayed (not the entire path)
@@ -770,6 +774,7 @@ Hidden files should be listed
 One file name per line
 The listing should end with a new line
 You are not allowed to use basename, grep, egrep, fgrep or rgrep
+``` shell
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$ ls -laR
 .:
 total 64
@@ -843,15 +848,16 @@ rudy_rigot.gif
 .horrible_selfie.gif
 ........gif
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 100-empty_casks
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 100-empty\_casks
 
-24. A gif is worth ten thousand words
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+### 24. A gif is worth ten thousand words
+_\#advanced_
+
 Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 
 Hidden files should be listed
@@ -861,6 +867,7 @@ The files should be sorted by byte values, but case-insensitive (file aaa should
 One file name per line
 The listing should end with a new line
 You are not allowed to use basename, grep, egrep, fgrep or rgrep
+``` shell
     julien@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
     .:
     total 28
@@ -903,21 +910,23 @@ You are not allowed to use basename, grep, egrep, fgrep or rgrep
     Electra_napping
     main
     julien@production-503e7013:~/shell/fun_with_the_shell$
-Repo:
+ ```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
+GitHub repository: alx-system\_engineering-devops
+Directory: 0x02-shell\_redirections
 File: 101-gifs
 
 25. Acrostic
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+_\#advanced_
+
 An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. Read more.
 
 Create a script that decodes acrostics that use the first letter of each line.
 
 The ‘decoded’ message has to end with a new line
 You are not allowed to use grep, egrep, fgrep or rgrep
+``` shell
 julien@ubuntu:/tmp/0x02$ cat An\ Acrostic
 Elizabeth it is in vain you say
 Love not"—thou sayest it in so sweet a way:
@@ -931,15 +940,16 @@ His follie—pride—and passion—for he died.
 julien@ubuntu:/tmp/0x02$ ./102-acrostic < An\ Acrostic
 ELIZABETH
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
-File: 102-acrostic
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
+* File: 102-acrostic
 
-26. The biggest fan
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+### 26. The biggest fan
+_\#advanced_
+
 Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 
 Order by number of requests, most active host or IP at the top
@@ -954,7 +964,7 @@ url Requested path
 response    HTTP response code
 bytes   Number of bytes in the reply
 Here is an example with one day of logs of the NASA website (1995).
-
+``` shell
 julien@ubuntu:/tmp/0x02$ wget https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv
 --2022-03-08 11:08:26--  https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv
 Resolving s3.amazonaws.com (s3.amazonaws.com)... 52.217.171.144
@@ -991,8 +1001,9 @@ ircgate1.rcc-irc.si
 s150.phxslip4.indirect.com
 torben.dou.dk
 julien@ubuntu:/tmp/0x02$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x02-shell_redirections
+* GitHub repository: alx-system\_engineering-devops
+* Directory: 0x02-shell\_redirections
 File: 103-the_biggest_fan
