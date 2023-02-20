@@ -96,26 +96,26 @@ $ ./0-current_working_directory
  /root/alx-system_engineering-devops/0x00-shell_basics
 ```
 #### Repo:
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 0-current_working_directory
+* GitHub repository: alx-system_engineering-devops
+* Directory: 0x00-shell_basics
+* File: 0-current_working_directory
 
-1. What’s in there?
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Display the contents list of your current directory.
+### 1. What’s in there?
+
+#### Display the contents list of your current directory.
 
 Example:
-
+``` shell
 $./1-listit
 Applications    Documents   Dropbox Movies Pictures
 Desktop Downloads   Library Music Public
 $
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 1-listit
+* GitHub repository: alx-system_engineering-devops
+* Directory: 0x00-shell_basics
+* File: 1-listit
 
 2. There is no place like home
 mandatory
