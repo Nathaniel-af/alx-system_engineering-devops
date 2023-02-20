@@ -351,7 +351,8 @@ You can consider that all HTML files have the extension .html
 * Directory: 0x00-shell_basics
 * File: 14-copy_html
 
-### 15. Let’s move    \  advanced
+### 15. Let’s move    
+~advanced~
 
 Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
@@ -437,7 +438,7 @@ Directory: 0x00-shell_basics
 File: 102-tree
 
 18. Life is a series of commas, not periods
-#advanced
+~advanced~
 Score: 65.0% (Checks completed: 100.0%)
 Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
