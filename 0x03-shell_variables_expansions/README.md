@@ -218,46 +218,48 @@ julien@ubuntu:/tmp/0x03$
 - Directory: 0x03-shell_variables_expansions
 - File: 5-local_variables
 
-6. Local variable
-   mandatory
-   Score: 65.0% (Checks completed: 100.0%)
-   Create a script that creates a new local variable.
+### 6. Local variable
+
+Create a script that creates a new local variable.
 
 Name: BEST
 Value: School
-Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 6-create_local_variable
+#### Repo:
 
-7. Global variable
-   mandatory
-   Score: 65.0% (Checks completed: 100.0%)
-   Create a script that creates a new global variable.
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 6-create_local_variable
+
+### 7. Global variable
+
+Create a script that creates a new global variable.
 
 Name: BEST
 Value: School
-Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 7-create_global_variable
+#### Repo:
 
-8. Every addition to true knowledge is an addition to human power
-   mandatory
-   Score: 65.0% (Checks completed: 100.0%)
-   Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 7-create_global_variable
 
+### 8. Every addition to true knowledge is an addition to human power
+
+Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+
+```shell
 julien@production-503e7013:~$ export TRUEKNOWLEDGE=1209
 julien@production-503e7013:~$ ./8-true_knowledge | cat -e
 1337$
 julien@production-503e7013:~$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 8-true_knowledge
+#### Repo:
+
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 8-true_knowledge
 
 9. Divide and rule
    mandatory
@@ -368,12 +370,14 @@ Directory: 0x03-shell_variables_expansions
 File: 13-print_float
 
 14. Decimal to Hexadecimal
-    #advanced
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a script that converts a number from base 10 to base 16.
+
+_\#advanced_
+Write a script that converts a number from base 10 to base 16.
 
 The number in base 10 is stored in the environment variable DECIMAL
 The script should display the number in base 16, followed by a new line
+
+```shell
 julien@production-503e7013:~/$ export DECIMAL=16
 julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal
 10
@@ -384,16 +388,18 @@ julien@production-503e7013:~/$ export DECIMAL=15
 julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal | cat -e
 f$
 julien@production-503e7013:~/$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 100-decimal_to_hexadecimal
+#### Repo:
 
-15. Everyone is a proponent of strong encryption
-    #advanced
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 100-decimal_to_hexadecimal
+
+### 15. Everyone is a proponent of strong encryption
+
+_\#advanced_
+Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
 julien@production-503e7013:~/shell/fun_with_the_shell$ cat quote
 "Everyone is a proponent of strong encryption."
@@ -404,17 +410,18 @@ julien@production-503e7013:~/shell/fun_with_the_shell$ cat quote
 - Qbebgul R. Qraavat
   julien@production-503e7013:~/shell/fun_with_the_shell$
 
-Repo:
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 101-rot13
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 101-rot13
 
-16. The eggs of the brood need to be an odd number
-    #advanced
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a script that prints every other line from the input, starting with the first line.
+### 16. The eggs of the brood need to be an odd number
 
+_\#advanced_
+Write a script that prints every other line from the input, starting with the first line.
+
+```shell
 ubuntu@ip-172-31-63-244:/$ \ls -1
 bin
 boot
@@ -460,27 +467,33 @@ t~
 usr
 vmlinuz
 ubuntu@ip-172-31-63-244:/$
-Repo:
+```
+
+#### Repo:
 
 GitHub repository: alx-system_engineering-devops
 Directory: 0x03-shell_variables_expansions
 File: 102-odd
 
-17. I'm an instant star. Just add water and stir.
-    #advanced
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+### 17. I'm an instant star. Just add water and stir.
+
+_\#advanced_
+Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 
 WATER is in base water
 STIR is in base stir.
 The result should be in base bestchol
+
+```shell
 julien@production-503e7013:~$ export WATER="ewwatratewa"
 julien@production-503e7013:~$ export STIR="ti.itirtrtr"
 julien@production-503e7013:~$ ./103-water_and_stir
 shtbeolhc
 julien@production-503e7013:~$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 103-water_and_stir
+#### Repo:
+
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 103-water_and_stir
