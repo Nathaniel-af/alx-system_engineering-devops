@@ -393,26 +393,27 @@ drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
 ### 16. Clean Emacs    ##### #advanced
 
 Create a script that deletes all files in the current working directory that end with the character ~.
-
+``` shell
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls
 main.c  main.c~  Makefile~
 ubuntu@ip-172-31-63-244:/tmp/sym$ ./101-clean_emacs
 ubuntu@ip-172-31-63-244:/tmp/emacs$ ls
 main.c
 ubuntu@ip-172-31-63-244:/tmp/emacs$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 101-clean_emacs
+* GitHub repository: alx-system_engineering-devops
+* Directory: 0x00-shell_basics
+* File: 101-clean_emacs
 
-17. Tree
-#advanced
-Score: 65.0% (Checks completed: 100.0%)
+### 17. Tree
+~\#advanced~
+
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
 You are only allowed to use two spaces (and lines) in your script, not more.
-
+``` shell
 julien@ubuntu:/tmp/h$ ls -l
 total 4
 -rwxrw-r-- 1 julien julien 44 Sep 20 12:09 102-tree
@@ -431,15 +432,16 @@ julien@ubuntu:/tmp/h$ ls -l welcome/to
 total 4
 drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
 julien@ubuntu:/tmp/h$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 102-tree
+* GitHub repository: alx-system_engineering-devops
+* Directory: 0x00-shell_basics
+* File: 102-tree
 
-18. Life is a series of commas, not periods
-~advanced~
-Score: 65.0% (Checks completed: 100.0%)
+### 18. Life is a series of commas, not periods
+_\#advanced_
+
 Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
 Directory names should end with a slash (/)
@@ -448,6 +450,7 @@ The listing should be alpha ordered, except for the directories . and .. which s
 Only digits and letters are used to sort; Digits should come first
 You can assume that all the files we will test with will have at least one letter or one digit
 The listing should end with a new line
+``` shell
 ubuntu@ubuntu:~/$ ls -a
 
 .  ..  0-commas  0-commas-checks  1-empty_casks  2-gifs  3-directories  4-zeros  5-rot13  6-odd  7-sort_rot13  Makefile  quote  .test  test_dir  test.var
@@ -457,17 +460,18 @@ ubuntu@ubuntu:~/$ ./103-commas
 ./, ../, 0-commas, 0-commas-checks/, 1-empty_casks, 2-gifs, 3-directories, 4-zeros, 5-rot13, 6-odd, 7-sort_rot13, Makefile, quote, .test, test_dir/, test.var
 
 ubuntu@ubuntu:~/$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: 103-commas
+* GitHub repository: alx-system_engineering-devops
+* Directory: 0x00-shell_basics
+* File: 103-commas
 
-19. File type: School
-#advanced
-Score: 0.0% (Checks completed: 0.0%)
+### 19. File type: School
+_\#advanced_
+
 Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
-
+``` shell
 ubuntu@ip-172-31-63-244:/tmp/magic$ cp /bin/ls .
 ubuntu@ip-172-31-63-244:/tmp/magic$ ls -la
 total 268
@@ -488,8 +492,9 @@ ls:                    data
 thisisaschoolfile: School data
 thisisatextfile:       ASCII text
 ubuntu@ip-172-31-63-244:/tmp/magic$
-Repo:
+```
+#### Repo:
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x00-shell_basics
-File: school.mgc
+* GitHub repository: alx-system_engineering-devops
+* Directory: 0x00-shell_basics
+* File: school.mgc
