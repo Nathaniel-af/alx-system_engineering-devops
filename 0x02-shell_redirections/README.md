@@ -541,7 +541,7 @@ $
 * Directory: 0x02-shell\_redirections
 * File: 14-findthatword
 
-15. Count that word
+### 15. Count that word
 
 Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 ``` shell
