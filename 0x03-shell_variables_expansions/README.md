@@ -278,51 +278,58 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x03-shell_variables_expansions
 File: 9-divide_and_rule
 
-10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
-    mandatory
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a script that displays the result of BREATH to the power LOVE
+### 10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
+
+Write a script that displays the result of BREATH to the power LOVE
 
 BREATH and LOVE are environment variables
 The script should display the result, followed by a new line
+
+```shell
 julien@production-503e7013:~/$ export BREATH=4
 julien@production-503e7013:~/$ export LOVE=3
 julien@production-503e7013:~/$ ./10-love_exponent_breath
 64
 julien@production-503e7013:~/$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 10-love_exponent_breath
+#### Repo:
 
-11. There are 10 types of people in the world -- Those who understand binary, and those who don't
-    mandatory
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a script that converts a number from base 2 to base 10.
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 10-love_exponent_breath
+
+### 11. There are 10 types of people in the world -- Those who understand binary, and those who don't
+
+Write a script that converts a number from base 2 to base 10.
 
 The number in base 2 is stored in the environment variable BINARY
 The script should display the number in base 10, followed by a new line
+
+```shell
 julien@production-503e7013:~/$ export BINARY=10100111001
 julien@production-503e7013:~/$ ./11-binary_to_decimal
 1337
 julien@production-503e7013:~/$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 11-binary_to_decimal
+#### Repo:
 
-12. Combination
-    mandatory
-    Score: 65.0% (Checks completed: 100.0%)
-    Create a script that prints all possible combinations of two letters, except oo.
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 11-binary_to_decimal
+
+### 12. Combination
+
+Create a script that prints all possible combinations of two letters, except oo.
 
 Letters are lower cases, from a to z
 One combination per line
 The output should be alpha ordered, starting with aa
 Do not print oo
 Your script file should contain maximum 64 characters
+
+```shell
 julien@ubuntu:/tmp/0x03$ echo $((26 ** 2 -1))
 675
 julien@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
@@ -340,19 +347,21 @@ oq
 or
 os
 julien@ubuntu:/tmp/0x03$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 12-combinations
+#### Repo:
 
-13. Floats
-    mandatory
-    Score: 65.0% (Checks completed: 100.0%)
-    Write a script that prints a number with two decimal places, followed by a new line.
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 12-combinations
+
+### 13. Floats
+
+Write a script that prints a number with two decimal places, followed by a new line.
 
 The number will be stored in the environment variable NUM.
 
+```shell
 ubuntu@ip-172-31-63-244:~/0x03$ export NUM=0
 ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 0.00
@@ -363,13 +372,15 @@ ubuntu@ip-172-31-63-244:~/0x03$ export NUM=3.14159265359
 ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 3.14
 ubuntu@ip-172-31-63-244:~/0x03$
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x03-shell_variables_expansions
-File: 13-print_float
+#### Repo:
 
-14. Decimal to Hexadecimal
+- GitHub repository: alx-system_engineering-devops
+- Directory: 0x03-shell_variables_expansions
+- File: 13-print_float
+
+### 14. Decimal to Hexadecimal
 
 _\#advanced_
 Write a script that converts a number from base 10 to base 16.
